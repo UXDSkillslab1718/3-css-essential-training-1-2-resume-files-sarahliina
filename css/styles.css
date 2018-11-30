@@ -9,7 +9,21 @@ EF233C - red
 
 /* Global styles */
 
-body {}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
 
 #cover-image {
     max-height: 100px;
