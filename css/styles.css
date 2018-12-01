@@ -8,12 +8,21 @@ EF233C - red
 */
 
 /* Global styles */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Shadows Into Light', cursive;
 }
 
@@ -23,12 +32,11 @@ h1 {
 
 h2 {
     font-size: 40px;
+    margin-top: 0;
 }
 
 #cover-image {
-    max-height: 100px;
-    max-width: auto;
-
+    border-radius: 50%;
 }
 
 a {
@@ -40,15 +48,61 @@ a:hover {
     text-decoration: none;
 }
 
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+}
+
+.col-wide {
+    width: 70%;
+    float: right;
+    padding-left: 20px;
+    min-height: 175px;
+}
+
+
+
+
 /* Header & Footer styles */
 
 header,
 footer {
     background: #2B2D42;
+    color: #EDF2F4;
 }
 
-header h1, header h2 {
-    color: #EDF2F4;
+
+/* header */
+
+header {
+    text-align: center;
+}
+
+header h1,
+header h2 {
+    
+    margin: 0;
+}
+
+
+/* footer */
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 20px;
+    display: inline-block;
 }
 
 /* Work Experience */

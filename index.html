@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,66 +10,82 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Sarah Piller | Resume</title>
 </head>
+
 <body>
     <!-- // Intro -->
     <header>
-        <img id="cover-image" src="images/me.jpg" alt="Your Name">
-        <h1>Sarah Piller</h1>
-        <h2>UX Designer</h2>
-        <p>Add your profile summary here. You can have several paragraphs or add links.</p>
+        <div class="content-wrap">
+            <img id="cover-image" class="col-narrow" src="images/me.jpg" alt="Your Name">
+            <div class="col-wide">
+                <h1>Sarah Piller</h1>
+                <h2>UX Designer</h2>
+                <p>Add your profile summary here. You can have several paragraphs or add links.</p>
+            </div>
+        </div>
     </header>
-    
-    <main> 
+
+    <main>
         <!-- // Work Experience -->
         <section class="work">
-            <h2>Work Experience</h2>
+            <div class="content-wrap">
+                <div class="col-narrow">
+                    <h2>Work Experience</h2>
 
-            <!-- Job Details: copy this whole block to add more jobs -->
-            <h3>Job title</h3>
-            <p>Company Name</p>
-            <p>Date at job</p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p>Job summary.</p>
-            
-            <!-- This list can be deleted if you don't want to use it. -->
-            <p>Optional list:</p>
-            <ul>
-                <li>Created...</li>
-                <li>Lead...</li>
-                <li>Responsible for</li>
-            </ul>
-            <!-- end of Job Details block. -->
-            
+
+                    <!-- Job Details: copy this whole block to add more jobs -->
+                    <h3>Job title</h3>
+                    <p>Company Name</p>
+                    <p>Date at job</p>
+                </div>
+
+                <!-- Add as many paragraphs as you need. -->
+                <div class="col-wide">
+                    <p>Job summary.</p>
+
+
+                    <!-- This list can be deleted if you don't want to use it. -->
+                    <p>Optional list:</p>
+                    <ul>
+                        <li>Created...</li>
+                        <li>Lead...</li>
+                        <li>Responsible for</li>
+                    </ul>
+                    <!-- end of Job Details block. -->
+                </div>
+            </div>
         </section>
 
 
         <!-- // Education -->
         <section class="education">
-            <h2>Education</h2>
+            <div class="content-wrap">
+                <h2>Education</h2>
+                <!-- School details: copy this whole block to add more schools. -->
+                <h3>Kaiser-Karl-Schule, 2015</h3>
+                <p>Designation received</p>
 
-            <!-- School details: copy this whole block to add more schools. -->
-            <h3>Kaiser-Karl-Schule, 2015</h3>
-            <p>Designation received</p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p>Summary.</p>
-            <!-- End of school details. -->
+                <!-- Add as many paragraphs as you need. -->
+                <p>Summary.</p>
+                <!-- End of school details. -->
+            </div>
         </section>
     </main>
-    
+
     <!-- // Footer & contact info -->
     <footer>
-        <h2>Let's Keep in Touch!</h2>
-        
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <div>
-            <a href="mailto:sarahpiller@ymail.com">sarahpiller@ymail.com</a>
-            <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a>
-            <a href="#" target="_blank">Facebook</a>
-        </div>
+        <div class="content-wrap">
+            <h2>Let's Keep in Touch!</h2>
 
-        <p>Copyright 2017 by Sarah Piller</p>
+            <!-- Social media and contact links. Add or remove any networks. -->
+            <div class="contact-info">
+                <a href="mailto:sarahpiller@ymail.com">sarahpiller@ymail.com</a>
+                <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a>
+                <a href="#" target="_blank">Facebook</a>
+            </div>
+
+            <p>Copyright 2017 by Sarah Piller</p>
+        </div>
     </footer>
 </body>
+
 </html>
