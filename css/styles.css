@@ -9,10 +9,13 @@ EF233C - red
 
 /* Global styles */
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -63,18 +66,6 @@ a:hover {
     overflow: auto;
 }
 
-.col-narrow {
-    width: 30%;
-    float: left;
-
-}
-
-.col-wide {
-    width: 70%;
-    float: right;
-    padding-left: 50px;
-
-}
 
 
 
@@ -115,7 +106,7 @@ header {
 
 header h1,
 header h2 {
-    
+
     margin: 0;
 }
 
@@ -147,8 +138,9 @@ h3 ~ p {
 }
 
 .job-description p:first-of-type {
-    margin-top:0;
+    margin-top: 0;
 }
+
 
 /* Education */
 
@@ -159,4 +151,30 @@ h3 ~ p {
 
 p + h3 {
     margin-top: 30px;
+}
+
+
+/* Media queries */
+
+@media (min-width: 900px) {
+    .col-narrow {
+        width: 30%;
+        float: left;
+    }
+
+    .col-wide {
+        width: 70%;
+        float: right;
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+
+    #cover-image {
+        width: 150px;
+    }
 }
