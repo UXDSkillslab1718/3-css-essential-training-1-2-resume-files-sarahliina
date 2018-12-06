@@ -153,7 +153,8 @@ h3 ~ p {
 /* Education */
 
 .education {
-    background: #ADD8E6;
+    background: linear-gradient(rgba(173, 216, 230, 0.8), rgba(173, 216, 230, 0.5)), url(../images/background1.jpg) no-repeat fixed;
+    background-size: cover;
 }
 
 p + h3 {
